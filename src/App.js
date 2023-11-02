@@ -14,11 +14,10 @@ function App() {
     <>
 
 <Navbar/>
-
+<br></br>
 <Routes>
-{/* <Route path="/" element={<Table/>}></Route> */}
+<Route path="/" element={<Table/>}></Route>
 <Route path="/Signup" element={<Signup/>}></Route>
-
 
 <Route path="/Login" element={<Login/>}></Route>
 
